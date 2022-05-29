@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "icons";
+    src: url("../../fonts/websymbols-regular-webfont.eot"), 
+        url("../../fonts/websymbols-regular-webfont.woff"),
+        url("../../fonts/websymbols-regular-webfont.svg"),
+        url("../../fonts/websymbols-regular-webfont.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 70px;
+}
+
+p {
+    cursor: pointer;
+    margin: 0px;
+}
+
+.grid-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.p-grid{
+    margin-right: 80px !important;
+}
+
+.desc-grid {
+    font-size: 20px;
+}
+
+.button-delete {
+    font-size: 20px;
+}
+
+.incomplete {
+    color: #0d6efd; 
+}
+
+.complete {
+     background-color: #198754; 
+     color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.number-grid-complete {
+    font-family: "icons";
+    color: #198754;
+    margin-left: 90px;
+    margin-right: 15px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.number-grid-incomplete {
+    position: absolute;
+}
+
+.add-button{
+    margin-top: 25px;
+}

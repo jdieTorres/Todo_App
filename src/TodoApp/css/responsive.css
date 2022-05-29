@@ -1,0 +1,202 @@
+@media (max-width: 757px) {
+
+    *{
+        box-sizing: content-box;
+    }
+
+    body{
+        padding: 40px;
+    }
+
+    .principal-grid{
+        display: inline;
+    }
+
+    .list-grid{
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .add-grid{
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .p-grid{
+        width: 50%;
+        text-align: center;
+        margin-left: -20px !important;
+        padding: 0px;
+    }
+
+    .desc-grid{
+        font-size: 14px;
+    }
+
+    .button-delete{
+        width: 15%;
+        margin-right: 40px;
+    }
+    
+    .number-grid-complete {
+        margin-left: 130px;
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+
+    input {
+        float: left;
+        width: 65% !important;
+    }
+
+    .add-button{
+        margin-left: 25px;
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 620px) {
+
+    .number-grid-complete {
+        margin-left: 90px;
+    }
+
+}
+
+@media (max-width: 530px) {
+
+    .number-grid-complete {
+        margin-left: 40px;  
+    }
+
+    .button-delete{
+        font-size: 13px;
+    }
+
+    .number-grid-complete {
+        margin-top: 7px;
+    }
+
+    .complete {
+       padding-top: 0px;
+       padding-bottom: 0px;
+    }
+
+    .add-button{
+        margin-left: 15px;
+        width: 65%;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .p-grid{
+        display: block;
+        width: 100%;
+    }
+
+    .number-grid-complete {
+        margin-left: 100px;
+    }
+
+    .button-delete{
+        display: block;
+        margin: 0px;
+        width: 15%;
+    }
+
+    .number-grid-complete {
+        margin-left: 70px;
+    }
+
+    .desc-grid{
+        font-size: 12px;
+    }
+
+    .button-delete{
+        font-size: 12px;
+    }
+
+    .add-button{
+        margin-left: 12px;
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .number-grid-complete {
+        margin-left: 40px;
+    }
+
+    .add-button{
+        margin-left: 10px;
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 362px) {
+
+    .number-grid-complete {
+        margin-left: 35px;
+    }
+
+    .desc-grid{
+        font-size: 11px;
+    }
+
+    .button-delete{
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 351px) {
+
+    .button-delete{
+        height: 15px;
+    }
+
+    .desc-grid{
+        font-size: 9px;
+    }
+
+    .button-delete{
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width: 280px) {
+
+    body{
+        padding: 20px;
+    }
+
+    .button-delete{
+        margin-top: 15px;
+        height: 10px;
+    }
+
+    .desc-grid {
+        display: grid;
+        text-align: center;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .number-grid-complete {
+        margin-left: 7px;
+        margin-top: 10px;
+    }
+
+    .add-grid{
+        width: 75%;
+    }
+
+}
